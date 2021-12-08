@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Economica', sans-serif;
+    font-size: 400%;
+    padding: 10px;
+    display: inline-block;
+}
+.log{
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+body{
+    background-color:white;
+    margin: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    ul{
+        display:flex;
+        flex-direction: row;
+        list-style-type: none;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+.cryptoGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}

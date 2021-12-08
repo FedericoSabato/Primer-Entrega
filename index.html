@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Economica&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scss/mystyle.css">
+    <title>Desafio 6| Coder House</title>
+</head>
+<body>
+    <header>
+        <h1>CRYPTO P2P MARKET</h1>
+        <div class="log">
+            <a href="#">Registrarme</a>
+            <a href="#">Entrar</a>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="#">COMPRAR</a></li>
+                <li><a href="#">VENDER</a></li>
+            </ul>
+        </nav>
+        <section class="formulario">    
+            <form action="#">
+                <div>
+                    <label for="cripto">Crypto</label>
+                    <select name="cripto" id="">
+                        <option value="BTC">BTC</option>
+                        <option value="ETH">ETH</option>
+                        <option value="ADA">ADA</option>
+                        <option value="SOL">SOL</option>
+                        <option value="SHIBA">SHIBA</option>
+                    </select>
+                    <label for="pair">/</label>
+                    <select name="pair" id="">
+                        <option value="USDT">USDT</option>
+                        <option value="BUSD">BUSD</option>
+                        <option value="BTC">BTC</option>
+                        <option value="ETH">ETH</option>
+                        <option value="USDC">USDC</option>
+                    </select>
+                    <input type="submit" value="Buscar">
+                </div>
+            </form>
+        </section>
+        <section class="message">
+            <h2>Elija su cryptomoneda a comprar:</h2>
+            <h4>Todos los precios están considerados en $USDT.</h4>
+        </section>
+        <section class="cryptoGrid">
+                <div class="cryptoDesc">
+                    <img src="Images/CryptoLogos/btc.png" alt="Crypto 1" width="200px" height="200px">
+                    <h3>1</h3>
+                    <h3 ><span id="title1"></span></h3>
+                    <h3 ><span id="price1"></span></h3>
+                </div>
+                <div class="cryptoDesc">
+                    <img src="Images/CryptoLogos/eth.png" alt="Crypto 2" width="200px" height="200px">
+                    <h3>2</h3>
+                    <h3 ><span id="title2"></span></h3>
+                    <h3 ><span id="price2"></span></h3>
+                </div>
+                <div class="cryptoDesc">
+                    <img src="Images/CryptoLogos/ada.png" alt="Crypto 3" width="200px" height="200px">
+                    <h3>3</h3>
+                    <h3 ><span id="title3"></span></h3>
+                    <h3 ><span id="price3"></span></h3>
+                </div>
+                <div vclass="cryptoDesc">
+                    <img src="Images/CryptoLogos/sol.png" alt="Crypto 4" width="200px" height="200px">
+                    <h3>4</h3>
+                    <h3 ><span id="title4"></span></h3>
+                    <h3 ><span id="price4"></span></h3>
+                </div>
+                <div class="cryptoDesc">
+                    <img src="Images/CryptoLogos/shiba.png" alt="Crypto 5" width="200px" height="200px">
+                    <h3>5</h3>
+                    <h3 ><span id="title5"></span></h3>
+                    <h3 ><span id="price5"></span></h3>
+                </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
+
+<script src="js/main.js"></script>
